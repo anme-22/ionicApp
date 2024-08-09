@@ -1,3 +1,5 @@
 <app-header title="action sheet"></app-header>
 
-<ion-content [fullscreen]="true"> </ion-content>
+<ion-content class="ion-padding" [fullscreen]="true">
+  <ion-button (click)="presentActionSheet()">Open</ion-button>
+</ion-content>
